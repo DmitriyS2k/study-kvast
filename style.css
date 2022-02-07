@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .container-small {
@@ -17,7 +17,6 @@ body {
 }    
 
 .header-main {
-    
     height: 549px;
     padding-top: 60px;
     background: url('/img/wheat-back.jpg');
@@ -53,11 +52,6 @@ body {
     list-style: none;
     display: flex;
     justify-content: space-between;
-}
-
-.main-nav li {
-    
-    
 }
 
 .main-nav li a {
@@ -101,4 +95,251 @@ body {
     line-height: 70px;
     font-weight: bold;
 
+}
+
+/* --------------------- */
+
+.new-products {
+    height: 1084px;
+    background-color: white;
+}
+
+.new-products-title {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 61px;
+    margin: 85px 0 95px 0;
+}
+
+.product-card {
+    width: 340px;
+    height: 746px;
+    position: relative;
+}
+
+.product-first {
+    float: left;
+    margin-left: 35px;
+
+}
+
+.product-second {
+    float: left;
+    margin-left: 66px;
+}
+
+.product-card h3 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 61px;
+    margin-bottom: 26px;
+}
+
+.product-card .product-info {
+    position: absolute;
+    left: 188px;
+    top: 84px;
+    width: 150px;
+    height: 140px;    
+}
+
+.product-card table {
+    border-collapse: collapse;
+}
+
+.product-card td {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid rgba(0, 0, 0, 0.096);
+    width: 77px;
+    height: 42px;
+    text-align: left;
+    padding-left: 13px;
+}
+
+.product-compound p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.product-description {
+    height: 82px;
+    margin-bottom: 70px;
+}
+
+.product-description  p{
+    font-size: 14px;
+    line-height: 30px;    
+}
+
+.product-price {
+    display: inline-block;
+    margin-left: 17px;
+}
+
+/* ---------btn------------ */
+
+.btn {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 15px 20px;
+}
+
+.btn-about {
+    background-color: white;
+    color: #834700;
+    border: 2px solid #834700;    
+}
+
+.btn-buy {
+    background-color: #834700;
+    color: white;
+    border: 2px solid #834700;
+}
+
+/* --------------------- */
+
+.advantages {
+    background-color: #ffcb78;
+    height: 400px;
+    padding-top: 81px;
+    }
+
+.advantages-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages-list li {
+    width: 215px;
+    height: 240px;
+}
+
+.advantages-list li:first-child::before {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 68px;
+    background-image: url(/img/icon-brew.png);
+    background-repeat: no-repeat;
+}
+
+.advantages-list li:nth-child(2)::before {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 68px;
+    background-image: url(/img/icon-matreshka.png);
+    background-repeat: no-repeat;
+}
+
+.advantages-list li:last-child::before {
+    content: '';
+    display: block;
+    width: 63px;
+    height: 68px;
+    background-image: url(/img/icon-thumbsup.png);
+    background-repeat: no-repeat;
+}
+
+.advantages-list h2 {
+    margin-top: 35px;
+    margin-bottom: 31px;
+    text-transform: uppercase;
+    font-weight: bold;   
+}
+
+.advantages-list p {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+/* --------------------- */
+
+.story-about-us {
+    padding-top: 93px;
+    height: 680px;
+}
+
+.story-about-us h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    font-weight: 61px;
+    line-height: bold;
+    text-transform: uppercase;
+}
+
+.story-about-us dl {
+    margin: 0;
+    padding: 0;
+    margin-top: 70px;
+}
+
+.story-about-us dt {
+    display: flex;
+    justify-content: space-between;
+}
+
+.story-about-us dd {
+    padding: 0;
+    margin: 0;
+    margin-top: 39px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.story-about-us dd p {
+    display: block;
+    margin: 0;
+    width: 490px;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.story-about-us .story-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.story-source > a {
+text-decoration: none;
+}
+
+.story-source > a > i {
+    color: #834700;
+    border-bottom: 1px solid #834700;
+}
+
+/* --------------------- */
+
+.news-about-us {
+    background-color: #ede5d8;
+    height: 483px;
+}
+
+.news-about-us h2 {
+    margin: 0;
+    padding: 90px 0;
+    font-size: 40px;
+    font-weight: 61px;
+    line-height: bold;
+    text-transform: uppercase;
 }
